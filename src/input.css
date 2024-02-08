@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-first {
+  @apply md:py-2 px-6 py-1 rounded-xl bg-transparent text-white focus:px-5 border-white border hover:text-dark-600 transition-all hover:bg-white ease-out;
+}
+
+.button-second {
+  @apply lg:py-4 lg:px-4 rounded-xl bg-transparent text-black focus:px-5 border-black border hover:text-white transition-all hover:bg-dark-500 ease-out;
+}
