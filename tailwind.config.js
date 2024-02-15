@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-const withMT = require("@material-tailwind/html/utils/withMT");
 
-module.exports = withMT({
+
+module.exports = {
   content: ["./yayasan/**/*.{html,js}"],
   theme: {
     fontFamily: {
@@ -10,4 +10,4 @@ module.exports = withMT({
     extend: {},
   },
   plugins: [],
-});
+};

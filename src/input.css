@@ -3,9 +3,12 @@
 @tailwind utilities;
 
 .button-first {
-  @apply md:py-2 px-6 py-1 rounded-xl bg-transparent text-white focus:px-5 border-white border hover:text-dark-600 transition-all hover:bg-white ease-out;
+  @apply md:py-2 px-6 py-1 rounded-xl bg-transparent text-white focus:px-5 border-white border hover:text-slate-900 transition-all hover:bg-white ease-out;
+}
+.button-second {
+  @apply relative py-2 px-8 text-black text-xs font-bold  overflow-hidden bg-white rounded-full transition-all duration-100 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-blue-500 before:to-blue-300 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-full hover:before:left-0;
 }
 
-.button-second {
-  @apply lg:py-4 lg:px-4 rounded-xl bg-transparent text-black focus:px-5 border-black border hover:text-white transition-all hover:bg-dark-500 ease-out;
+.rh1 {
+  @apply lg:text-6xl md:text-4xl  text-2xl font-bold;
 }
