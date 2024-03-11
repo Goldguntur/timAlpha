@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="../src/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../src/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   </head>
   <body class="scroll-smooth">
@@ -396,9 +397,9 @@
         </div>
     </div>
   </section>
-  <section id="Alumni" class="w-9/12 overflow-x-scroll h-auto mx-auto">
-    <div class="container mt-72 flex gap-9 swipper">
-      <div class="card-quote flex p-3  bg-gray-300 antialiased   min-w-80 h-min flex-col rounded-2xl shadow-xl">
+  <section id="Alumni" class="w-9/12 h-auto mx-auto swiper mySwiper ">
+    <div class="container mt-72 flex gap-9 swiper-wrapper">
+      <div class="card-quote flex p-3  bg-gray-300 antialiased swiper-slide  min-w-80 h-min flex-col rounded-2xl shadow-xl">
         <div class="card-quote-profile">
           <figure>
           <img src="../assest/images/default.jpg" alt="icon" class="rounded-[100%] w-14">
@@ -410,7 +411,7 @@
         </div>
       </div>
      
-      <div class="card-quote flex p-3  bg-gray-300 antialiased   min-w-80 h-min flex-col rounded-2xl shadow-xl">
+      <div class="card-quote flex p-3 swiper-slide  bg-gray-300 antialiased sw   min-w-80 h-min flex-col rounded-2xl shadow-xl">
         <div class="card-quote-profile">
           <figure>
           <img src="../assest/images/default.jpg" alt="icon" class="rounded-[100%] w-14">
@@ -425,7 +426,7 @@
         </div>
       </div>
      
-      <div class="card-quote flex p-3  bg-gray-300 antialiased   min-w-80 h-min flex-col rounded-2xl shadow-xl">
+      <div class="card-quote swiper-slide flex p-3  bg-gray-300 antialiased   min-w-80 h-min flex-col rounded-2xl shadow-xl">
         <div class="card-quote-profile">
           <figure>
           <img src="../assest/images/default.jpg" alt="icon" class="rounded-[100%] w-14">
@@ -437,8 +438,22 @@
         </div>
       </div>
      
-     
+      <div class="card-quote swiper-slide flex p-3  bg-gray-300 antialiased   min-w-80 h-min flex-col rounded-2xl shadow-xl">
+        <div class="card-quote-profile">
+          <figure>
+          <img src="../assest/images/default.jpg" alt="icon" class="rounded-[100%] w-14">
+          <figcaption class="text-lg antialiased font-extralight text-slate-500 italic opacity-80">Alumni SMK Taruna Budi Bangsa & universitas banteng merah</figcaption>
+        </figure>
+        </div>
+        <div>
+          <blockquote><span class="text-4xl text-blue-700 font-semibold">"</span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident, consequatur alias adipisci aut at praesentium itaque deserunt nemo placeat veniam inventore delectus, culpa neque suscipit perspiciatis totam aperiam asperiores tenetur tempora iusto sed optio rerum est. Doloremque deleniti cumque, perferendis quisquam, esse voluptates voluptatem minus adipisci voluptatibus est quam.<span class="text-4xl text-blue-700 font-semibold float-right">"</span></blockquote>
+        </div>
+      </div>
+
     </div>
+         
+      
+    <div class="swiper-pagination absolute"></div>
   </section>
 
     </main>
@@ -446,5 +461,29 @@
    <!-- instansi.js start  -->
    <script src="../assest/script/instansi.js"></script>
    <!-- instansi.js end    -->
+
+<!-- inisialize swipper js -->
+
+<script src="../assest/script/swiper-bundle.min.js"></script>
+
+
+<script>
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,
+  spaceBetween: 15,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+</script>
+
+<!-- inisialize end -->
+
   </body>
 </html>
