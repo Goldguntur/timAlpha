@@ -12,3 +12,6 @@
 .rh1 {
   @apply lg:text-6xl md:text-4xl  text-2xl font-bold;
 }
+.checked-link {
+  @apply hover:before:content-["{"] hover:after:content-["}"];
+}
