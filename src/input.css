@@ -13,5 +13,21 @@
   @apply lg:text-6xl md:text-4xl  text-2xl font-bold;
 }
 .checked-link {
-  @apply hover:before:content-["{"] hover:after:content-["}"];
+  @apply text-blue-600 text-xl uppercase   before:content-["{"] after:content-["}"] ;
 }
+
+.aborder {
+  @apply  after:block after:p-1 after:border-b-2 after:border-solid after:border-blue-500 lg:after:border-white hover:after:scale-x-100 after:scale-x-0 after:transition after:ease-linear after:duration-100   
+}
+
+.side {
+  @apply right-0 opacity-100
+}
+
+.menu-active {
+  @apply text-blue-600 border-solid border-2 border-blue-700
+}
+.span-menu {
+  @apply text-blue-600
+}
+
