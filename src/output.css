@@ -1558,9 +1558,9 @@ video {
   color: inherit;
 }
 
-.text-red-500 {
+.text-pink-500 {
   --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+  color: rgb(236 72 153 / var(--tw-text-opacity));
 }
 
 .text-sky-500 {
@@ -2308,6 +2308,10 @@ video {
   border-color: transparent;
 }
 
+.peer:required ~ .peer-required\:block {
+  display: block;
+}
+
 .peer:invalid ~ .peer-invalid\:text-pink-400 {
   --tw-text-opacity: 1;
   color: rgb(244 114 182 / var(--tw-text-opacity));
@@ -2370,14 +2374,6 @@ video {
 .peer:disabled ~ .peer-disabled\:after\:border-transparent::after {
   content: var(--tw-content);
   border-color: transparent;
-}
-
-.peer:not(:-moz-placeholder-shown):not(:focus):invalid ~ .peer-\[\&\:not\(\:-moz-placeholder-shown\)\:not\(\:focus\)\:invalid\]\:block {
-  display: block;
-}
-
-.peer:not(:placeholder-shown):not(:focus):invalid ~ .peer-\[\&\:not\(\:placeholder-shown\)\:not\(\:focus\)\:invalid\]\:block {
-  display: block;
 }
 
 @media (min-width: 640px) {
