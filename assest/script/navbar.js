@@ -17,12 +17,11 @@ menu.addEventListener("click", () => {
     }
 })
 
-// window.addEventListener("click", e => {
-//     if (!list.contains(e.target) && !navCheker.contains(e.target)) {
-//         navCheker.checked = false
-//         list.classList.remove("side")
-//         menu.classList.remove("menu-active")
-//         spanMenu.classList.remove("span-menu")
-//     };
-// });
+document.addEventListener("click", (e) => {
+    if (!list.contains(e.target) && !menu.contains(e.target)) {
+        list.classList.remove("side")
+        menu.classList.remove("menu-active")
+        spanMenu.classList.remove("span-menu")
+    };
+});
   
