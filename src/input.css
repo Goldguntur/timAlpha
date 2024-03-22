@@ -8,6 +8,9 @@
 .button-second {
   @apply relative py-2 px-8 lg:text-base text-black text-xs font-bold  overflow-hidden bg-white rounded-full transition-all duration-100 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-blue-500 before:to-blue-300 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-full hover:before:left-0;
 }
+.button-seconds {
+  @apply relative py-2 px-8 lg:text-base  text-xs font-bold  overflow-hidden bg-white rounded-full transition-all duration-100 ease-in-out   text-white shadow-lg scale-90 before:absolute before:top-0  before:w-full before:h-full before:bg-gradient-to-r before:from-blue-500 before:to-blue-300 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-full before:left-0;
+}
 
 .rh1 {
   @apply lg:text-6xl md:text-4xl  text-2xl font-bold;

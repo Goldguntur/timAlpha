@@ -98,12 +98,22 @@ const smk = `<div>
 
 yrbnBtn.addEventListener("click", () => {
   instansi.innerHTML = yrbn;
+  yrbnBtn.classList.add('button-seconds')
+  smpBtn.classList.remove('button-seconds')
+  smkBtn.classList.remove('button-seconds')
 });
 
 smpBtn.addEventListener("click", () => {
   instansi.innerHTML = smp;
+  smpBtn.classList.add('button-seconds')
+  yrbnBtn.classList.remove('button-seconds')
+  smkBtn.classList.remove('button-seconds')
 });
 
 smkBtn.addEventListener("click", () => {
   instansi.innerHTML = smk;
+  smkBtn.classList.add('button-seconds')
+  yrbnBtn.classList.remove('button-seconds')
+  smpBtn.classList.remove('button-seconds')
 });
+
