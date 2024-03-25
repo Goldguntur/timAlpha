@@ -51,7 +51,7 @@ arrayBtn.forEach((Btn, index,) => {
 function showGallery(img) {
 
 return  `<div class="rounded group   flex flex-col   flex-nowrap relative overflow-hidden aspect-square w-auto mx-auto">
-           <img src="${data[img]["b"]}" alt="" class="object-cover cover h-full w-full -z-40 group-hover:scale-150 transition-transform ease-linear ">
+           <img src="${data[img]["a"]}" alt="" class="object-cover cover h-full w-full -z-40 group-hover:scale-150 transition-transform ease-linear ">
              <span class="w-full py-6 inline-flex justify-center items-center bg-black opacity-0 group-hover:opacity-70 translate-y-10 group-hover:translate-y-0 transition-all duration-200 ease-linear absolute bottom-0">
               <p class="text-white absolute font-medium uppercase">buka</p> 
           </span>
@@ -106,26 +106,26 @@ return  `<div class="rounded group   flex flex-col   flex-nowrap relative overfl
       </span>
    </div>
    
-    <div class="rounded group   flex flex-col   flex-nowrap relative overflow-hidden aspect-square w-auto mx-auto">
-      <img src="${data[img]["i"]}" alt="" class="object-cover cover h-full w-full -z-40 group-hover:scale-150 transition-transform ease-linear ">
-      <span class="w-full py-6 inline-flex justify-center items-center bg-black opacity-0 group-hover:opacity-70 translate-y-10 group-hover:translate-y-0 transition-all duration-200 ease-linear absolute bottom-0">
-         <p class="text-white absolute font-medium uppercase">buka</p> 
-      </span>
-   </div>
+   <div class="rounded group   flex flex-col   flex-nowrap relative overflow-hidden aspect-square w-auto mx-auto">
+   <img src="${data[img]["i"]}" alt="" class="object-cover cover h-full w-full -z-40 group-hover:scale-150 transition-transform ease-linear ">
+   <span class="w-full py-6 inline-flex justify-center items-center bg-black opacity-0 group-hover:opacity-70 translate-y-10 group-hover:translate-y-0 transition-all duration-200 ease-linear absolute bottom-0">
+      <p class="text-white absolute font-medium uppercase">buka</p> 
+   </span>
+</div>
    
-    <div class="rounded group   flex flex-col   flex-nowrap relative overflow-hidden aspect-square w-auto mx-auto">
-      <img src="${data[img]["j"]}" alt="" class="object-cover cover h-full w-full -z-40 group-hover:scale-150 transition-transform ease-linear ">
-      <span class="w-full py-6 inline-flex justify-center items-center bg-black opacity-0 group-hover:opacity-70 translate-y-10 group-hover:translate-y-0 transition-all duration-200 ease-linear absolute bottom-0">
-         <p class="text-white absolute font-medium uppercase">buka</p> 
-      </span>
-   </div>
+<div class="rounded group   flex flex-col   flex-nowrap relative overflow-hidden aspect-square w-auto mx-auto">
+<img src="${data[img]["j"]}" alt="" class="object-cover cover h-full w-full -z-40 group-hover:scale-150 transition-transform ease-linear ">
+<span class="w-full py-6 inline-flex justify-center items-center bg-black opacity-0 group-hover:opacity-70 translate-y-10 group-hover:translate-y-0 transition-all duration-200 ease-linear absolute bottom-0">
+   <p class="text-white absolute font-medium uppercase">buka</p> 
+</span>
+</div>
    
-    <div class="rounded group   flex flex-col   flex-nowrap relative overflow-hidden aspect-square w-auto mx-auto">
-      <img src="${data[img]["k"]}" alt="" class="object-cover cover h-full w-full -z-40 group-hover:scale-150 transition-transform ease-linear ">
-      <span class="w-full py-6 inline-flex justify-center items-center bg-black opacity-0 group-hover:opacity-70 translate-y-10 group-hover:translate-y-0 transition-all duration-200 ease-linear absolute bottom-0">
-         <p class="text-white absolute font-medium uppercase">buka</p> 
-      </span>
-   </div>
+<div class="rounded group   flex flex-col   flex-nowrap relative overflow-hidden aspect-square w-auto mx-auto">
+<img src="${data[img]["b"]}" alt="" class="object-cover cover h-full w-full -z-40 group-hover:scale-150 transition-transform ease-linear ">
+<span class="w-full py-6 inline-flex justify-center items-center bg-black opacity-0 group-hover:opacity-70 translate-y-10 group-hover:translate-y-0 transition-all duration-200 ease-linear absolute bottom-0">
+   <p class="text-white absolute font-medium uppercase">buka</p> 
+</span>
+</div>
    
     <div class="rounded group   flex flex-col   flex-nowrap relative overflow-hidden aspect-square w-auto mx-auto">
       <img src="${data[img]["l"]}" alt="" class="object-cover cover h-full w-full -z-40 group-hover:scale-150 transition-transform ease-linear ">

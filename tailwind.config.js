@@ -6,6 +6,7 @@ module.exports = {
     fontFamily: {
       arial: ["arial"],
       serif: "sans-serif",
+      poppin: ["poppins", 'sans-serif']
     },
     extend: {},
   },
