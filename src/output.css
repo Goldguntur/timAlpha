@@ -626,6 +626,18 @@ video {
   bottom: 0px;
 }
 
+.bottom-\[10px\] {
+  bottom: 10px;
+}
+
+.bottom-\[15px\] {
+  bottom: 15px;
+}
+
+.bottom-\[20px\] {
+  bottom: 20px;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -646,6 +658,18 @@ video {
   top: 50%;
 }
 
+.bottom-\[10\] {
+  bottom: 10;
+}
+
+.bottom-\[15\] {
+  bottom: 15;
+}
+
+.bottom-\[20\] {
+  bottom: 20;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -660,6 +684,38 @@ video {
 
 .z-50 {
   z-index: 50;
+}
+
+.z-\[1000\] {
+  z-index: 1000;
+}
+
+.z-\[900\] {
+  z-index: 900;
+}
+
+.z-\[990\] {
+  z-index: 990;
+}
+
+.z-\[995\] {
+  z-index: 995;
+}
+
+.z-\[800\] {
+  z-index: 800;
+}
+
+.z-\[99999\] {
+  z-index: 99999;
+}
+
+.z-\[999\] {
+  z-index: 999;
+}
+
+.z-\[9999\] {
+  z-index: 9999;
 }
 
 .float-right {
@@ -882,6 +938,10 @@ video {
   height: 5px;
 }
 
+.h-\[90vh\] {
+  height: 90vh;
+}
+
 .h-auto {
   height: auto;
 }
@@ -902,10 +962,6 @@ video {
 
 .max-h-\[40px\] {
   max-height: 40px;
-}
-
-.min-h-52 {
-  min-height: 13rem;
 }
 
 .min-h-\[60px\] {
@@ -1010,6 +1066,216 @@ video {
 
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@keyframes waving2 {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: -1000px;
+  }
+}
+
+.animate-\[waving2_15s_linear_infinite\] {
+  animation: waving2 15s linear infinite;
+}
+
+@keyframes waving {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+.animate-\[waving_30s_linear_infinite\] {
+  animation: waving 30s linear infinite;
+}
+
+@keyframes waving2 {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: -1000px;
+  }
+}
+
+.animate-\[waving2_5s_linear_infinite\] {
+  animation: waving2 5s linear infinite;
+}
+
+@keyframes waving2 {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: -1000px;
+  }
+}
+
+.animate-\[waving2_10s_linear_infinite\] {
+  animation: waving2 10s linear infinite;
+}
+
+@keyframes waving {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+.animate-\[waving_20s_linear_infinite\] {
+  animation: waving 20s linear infinite;
+}
+
+@keyframes waving {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+.animate-\[waving_25s_linear_infinite\] {
+  animation: waving 25s linear infinite;
+}
+
+@keyframes waving {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+.animate-\[waving_35s_linear_infinite\] {
+  animation: waving 35s linear infinite;
+}
+
+@keyframes waving2 {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: -1000px;
+  }
+}
+
+.animate-\[waving2_25s_linear_infinite\] {
+  animation: waving2 25s linear infinite;
+}
+
+@keyframes waving2 {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: -1000px;
+  }
+}
+
+.animate-\[waving2_39s_linear_infinite\] {
+  animation: waving2 39s linear infinite;
+}
+
+@keyframes waving {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+.animate-\[waving_10s_linear_infinite\] {
+  animation: waving 10s linear infinite;
+}
+
+@keyframes waving {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+.animate-\[waving_15s_linear_infinite\] {
+  animation: waving 15s linear infinite;
+}
+
+@keyframes waving2 {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: -1000px;
+  }
+}
+
+.animate-\[waving2_30s_linear_infinite\] {
+  animation: waving2 30s linear infinite;
+}
+
+@keyframes waving2 {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: -1000px;
+  }
+}
+
+.animate-\[waving2_13s_linear_infinite\] {
+  animation: waving2 13s linear infinite;
+}
+
+@keyframes waving {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+.animate-\[waving_24s_linear_infinite\] {
+  animation: waving 24s linear infinite;
+}
+
+@keyframes waving {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+.animate-\[waving_28s_linear_infinite\] {
+  animation: waving 28s linear infinite;
 }
 
 .cursor-pointer {
@@ -1250,10 +1516,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-opacity-80 {
-  --tw-bg-opacity: 0.8;
 }
 
 .bg-gradient-to-tr {
@@ -1614,6 +1876,22 @@ video {
   opacity: 0.8;
 }
 
+.opacity-\[0\.2\] {
+  opacity: 0.2;
+}
+
+.opacity-\[0\.5\] {
+  opacity: 0.5;
+}
+
+.opacity-\[0\.7\] {
+  opacity: 0.7;
+}
+
+.opacity-\[1\] {
+  opacity: 1;
+}
+
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -1969,6 +2247,16 @@ video {
 .span-menu {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
+.wave {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 100px;
+  width: 100%;
+  background-image: url(../assest/images/wave.png);
+  background-size: 1000px 100px;
 }
 
 .first-letter\:float-left::first-letter {

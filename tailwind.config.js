@@ -8,7 +8,18 @@ module.exports = {
       serif: "sans-serif",
       poppin: ["poppins", 'sans-serif']
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        waving: {
+          '0%': {backgroundPositionX: '0'},
+          '100%': {backgroundPositionX: '1000px'}
+        },
+        waving2: {
+          '0%': {backgroundPositionX: '0'},
+          '100%': {backgroundPositionX: '-1000px'}
+        },
+      },
+    },
   },
   plugins: [],
 };

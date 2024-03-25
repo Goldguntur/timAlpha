@@ -34,3 +34,7 @@
   @apply text-blue-600
 }
 
+.wave {
+  @apply absolute bottom-0 left-0 h-[100px] w-full bg-[url(../assest/images/wave.png)]  bg-[length:1000px_100px]
+}
+
