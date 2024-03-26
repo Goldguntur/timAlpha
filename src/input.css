@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .button-first {
-  @apply md:py-2 px-6 py-1 rounded-xl bg-transparent text-white focus:px-5 border-white border hover:text-slate-900 transition-all hover:bg-white ease-out;
+  @apply  w-[80px] p-2  rounded-xl bg-transparent text-white focus:px-5 border-white border hover:text-slate-900 transition-all hover:bg-white ease-out;
 }
 .button-second {
   @apply relative py-2 px-8 lg:text-base text-black text-xs font-bold  overflow-hidden bg-white rounded-full transition-all duration-100 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-blue-500 before:to-blue-300 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-full hover:before:left-0;
@@ -35,6 +35,6 @@
 }
 
 .wave {
-  @apply absolute bottom-0 left-0 h-[100px] w-full bg-[url(../assest/images/wave.png)]  bg-[length:1000px_100px]
+  @apply absolute bottom-0 left-0 h-[50px] w-full bg-[url(../assest/images/wave.png)]  bg-[length:1000px_100px]
 }
 
